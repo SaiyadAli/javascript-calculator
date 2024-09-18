@@ -1,0 +1,12 @@
+.main-body
+{
+    position:relative;
+    inset:30% auto auto 40%;
+}
+.calc
+{
+    position:relative;
+    width:400px;
+    height:600px;
+    color: aquamarine;
+}
