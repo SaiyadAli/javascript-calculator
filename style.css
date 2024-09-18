@@ -1,12 +1,46 @@
-.main-body
-{
-    position:relative;
-    inset:30% auto auto 40%;
-}
+
 .calc
 {
-    position:relative;
+    margin-left: 30vw;
+    margin-top:50px;
     width:400px;
     height:600px;
-    color: aquamarine;
+    background-color: rgb(136, 138, 135);
+}
+
+#screen{
+    width: 80%;
+    margin-left: 34px;
+    height: 40px;
+    margin-top: 23px;
+    pointer-events: none;
+}
+.buttons
+{
+   margin: 20px  39px 0px 34px;
+}
+.rows
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+}
+.btn{
+    width:60px;
+    height:45px;
+    border-radius: 5px;
+    cursor:pointer;
+    background-color: bisque;
+    
+
+}
+.btn:hover
+{
+    background-color: aquamarine;
+}
+.clear-btn
+{
+    margin-bottom: 30px;
+    
 }
